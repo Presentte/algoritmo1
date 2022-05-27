@@ -9,4 +9,4 @@ inicio
     leia(sobrenome)
     nomeCompleto <- nome + " " + sobrenome
     Escreval (nomeCompleto)
-filmagoritmo
+fimalgoritmo
