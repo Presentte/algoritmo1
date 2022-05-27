@@ -1,6 +1,6 @@
 #algoritmo "trabalhando com tipos de variáveis"
 
-variáveis
+var
     nome, sobrenome, nomeCompleto: literal
 inicio
     Escreval ("Informe o seu nome: ")
