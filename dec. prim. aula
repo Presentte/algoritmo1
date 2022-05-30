@@ -1,0 +1,27 @@
+algoritmo "MOD e DIV"
+
+var
+x, y, w : inteiro
+
+inicio
+x <- 10
+y <- 3
+w <- x DIV y
+Escreval (w)
+
+fimalgoritmo
+
+var
+x: inteiro
+
+inicio
+Escreval ("Informe um número")
+leia (x)
+
+se x MOD 2 = 0 entao
+    Escreval("Numero Par")
+senao
+    Escreval ("Numero Impar")
+fimse
+
+fimalgoritmo
