@@ -1,0 +1,13 @@
+algoritmo "Para"
+
+var
+i: inteiro
+
+inicio
+Para i de 2 ate 20 faca
+    se i mod 2 = 0
+        escreval (i)
+    fimse
+fimpara
+
+fimalgoritmo
