@@ -1,0 +1,35 @@
+algoritmo "Menu"
+
+var
+opcaoMenu: literal
+totalConta: inteiro
+
+inicio
+totalConta <- 0
+repita
+    Escreval ("1 - Pizza G de calabresa com bacon e borda de catupiry")
+    Escreval ("2 - Pizza G de frango com bacon e borda de catupiry")
+    Escreval ("3 - Pizza G de calabresesa, bacon, catupiry e borda de chocolate")
+    Escreval ("4 - Pizza G de calabresa, bacon, ovo, pimentão e borda de chocolate")
+    Escreval ("5 - Desisti de realizar o pedido")
+    leia (opcaoMenu)
+    se opcaoMenu = "1" entao
+        totalConta <- totalConta + 38
+    senao
+    se opcaoMenu = "2" entao
+        totalConta <- totalConta + 37
+    senao
+    se opcaoMenu = "3" entao
+        totalConta <- totalConta + 40
+    senao
+    se opcaoMenu = "4" entao
+        totalConta <- totalConta + 41
+    fimse
+    fimse
+    fimse
+    fimse
+limpatela
+ate opcaoMenu = "5"
+Escreval ("Total do seu pedido: R$ ", totalConta)
+
+fimalgoritmo
