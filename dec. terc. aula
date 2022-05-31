@@ -1,0 +1,19 @@
+algoritmo "Enquanto"
+
+var
+i: inteiro
+
+inicio
+i <- 50
+escreval ("Comece")
+enquanto i <= 300 faca
+    escreval (i)
+    i <- i + 1
+    se i = 150 entao
+        escreval ("O valor desejado foi atingido!")
+        interrompa
+    fimse
+fimenquanto
+escreval ("Terminamos")
+
+fimalgoritmo
