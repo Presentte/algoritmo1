@@ -1,0 +1,24 @@
+algoritmo "Para"
+
+var
+x, aleatorioMaximo, aleatorioMinimo, acrescimo: inteiro
+
+inicio
+repita
+aleatorio 1,100
+    leia (aleatorioMaximo)
+    leia (aleatorioMinimo)
+aleatorio off
+ate aleatorioMaximo >= aleatorioMinimo
+limpatela
+
+aleatorio 1,10
+leia (passo)
+aleatorio off
+limpatela
+
+para x de aleatorioMinimo ate aleatorioMaximo passo incremento faca
+    escreval (x)
+fimpara
+
+fimalgoritmo
