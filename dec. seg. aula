@@ -1,0 +1,24 @@
+algoritmo "Enquanto"
+
+var
+alturaFernando, alturaFelipe, crescimentoAnualFernando, crescimentoAnualFelipe: real   
+idade: inteiro
+
+inicio
+alturaFernando <- 1.17
+alturaFelipe <- 1.03
+crescimentoAnualFernando <- 0.03
+crescimentoAnualFelipe <- 0.05
+idade <- 7
+
+enquanto alturaFernando >= alturaFelipe faca
+    alturaFernando <- alturaFernando + crescimentoAnualFernando
+    alturaFelipe <- alturaFelipe + crescimentoAnualFelipe
+    idade <- idade + 1
+fimenquanto
+
+escreval ("Idade", idade)
+escreval ("Altura Fernando", alturaFernando)
+escreval ("Altura Felipe", alturaFelipe)
+
+fimalgoritmo
